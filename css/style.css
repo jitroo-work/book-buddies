@@ -1,0 +1,189 @@
+li,{list-style:none;}
+* {	font-family: 'Montserrat';}
+a {text-decoration: none;}
+.container { padding: 20px;max-width: 550px;}
+.card {	margin: 20px;}
+
+.footer {
+	font-size: 1em;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	height: 2.5em;
+	width: 100vw;
+	padding: .8em;
+}
+
+.login {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.gradient {
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	background: rgb(102,127,255);
+	background: linear-gradient(50deg, rgba(51,85,255,1) 0%, rgba(166,77,255,1) 75%);
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 0;
+}
+
+.login .alert, .login form {
+	width: 70%;
+	align-self: center;
+}
+
+.title-bar {
+	color: #fff;
+	text-align: left;
+	background: rgb(102,127,255);
+	background: linear-gradient(75deg, rgba(102,127,255,1) 0%, rgba(166,77,255,1) 100%);
+	font-size: 2.5em;
+}
+
+.nav-item .btn-link
+{
+	list-style:none;
+	text-decoration: none !important;
+	color: white;
+}
+
+.nav-link{color: white !important;}
+.nav-item .btn-link:hover {color: rgb(102,127,255) !important;}
+.active .nav-link {color: rgb(255,24,104) !important;}
+.nav-link:hover {color: rgb(255,121,0) !important;}
+.nav-link:active {color: white !important;}
+
+.nav-item .btn-link:hover {
+	color: rgb(255,121,0) !important;
+}
+
+.cover {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.cover img {
+	max-height: 75%;
+	align-self: center;
+}
+
+.login h1, .login p {text-align: center;}
+
+.title-bar h1 {
+	padding: 3vw 0 1vw 3vw;
+}
+
+.btn-round {
+	border:  none;
+	border-radius: 50px;
+	height: 5vh;
+	width: 7vw;
+	padding: 5px;
+}
+
+.btn-pink {
+	color: #fff;
+	background: rgb(255,24,104);
+}
+
+.btn-pink:hover {
+	background: linear-gradient(75deg, rgba(102,127,255,1) 0%, rgba(166,77,255,1) 100%);
+	cursor: pointer;
+}
+
+.btn-pink:active {
+	background: rgb(255,121,0);
+}
+
+.btn-orange {
+	color: #fff;
+	background: rgb(255,85,51);
+}
+
+.btn-orange:hover {
+	color: rgb(255,85,51);
+	background: #fff;
+	cursor: pointer;
+}
+
+.btn-orange:active {
+	color: #fff;
+	background: rgb(255,24,104);
+}
+
+.back{	margin-top: 1em; z-index: 1000;}
+.navbar-toggler-icon{color: #fff;}
+#cardCredentials{display: block;}
+
+.confirm-details
+{
+	width: 80%;
+	margin: 0 auto 30px auto;
+	background: #fff;
+}
+
+.cell-black
+{
+	color: #fff !important;
+	background: #000;
+}
+
+#confirm{color: #000;}
+
+.success-main
+{
+	font-size: 64px;
+	text-align: center;
+}
+
+.success-sub
+{
+	font-size: 36px;
+	text-align: center;
+}
+
+.success-section
+{
+	margin: 10% 0;
+}
+
+.success-back
+{
+	width: auto;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+.thumbnail-container
+{
+	margin: 0 auto;
+	display: flex;
+  justify-content: center;
+	padding-bottom: 20px;
+}
+
+.confirm-thumbnail
+{
+	max-width: 200px;
+	margin: 0 25%;
+	text-align: center;
+}
+
+.scrollable
+{
+	height: 600px;
+	overflow-y: scroll;
+}
+
+.scrollable-content
+{
+	display: block;
+}
